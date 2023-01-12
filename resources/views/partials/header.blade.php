@@ -20,14 +20,5 @@
         <div class="jumbotron">
             <button>CURRENT SERIES</button>
         </div>
-        <div class="cards">
-            @foreach ($comics_info as $item)
-                <div class="card">
-                    <img src="{{$item['thumb']}}" alt="img">
-                    <h6>{{$item['title']}} </h6>
-                </div>
-            @endforeach
-        </div>
-        <button class="loadmore">LOAD MORE</button>
     </div>
 </div>
