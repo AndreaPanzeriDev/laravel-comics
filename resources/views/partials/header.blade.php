@@ -1,4 +1,4 @@
-<div class="container">
+<div class="containerX">
     <div class="navbar">
         <div><img src="{{asset('images/dc-logo.png')}}" alt="logo" /></div>
         <div class="lista">
