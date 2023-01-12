@@ -1,4 +1,4 @@
-<div class="Utilities">
+<div class="Utilities" >
     <div class="linkspace">
         <div>
             <div>
@@ -64,13 +64,15 @@
             <div class="dflex vcenterItems">
                 <h2 class="followUs">FOLLOW US</h2>
                 <div class="imgSettings">
-                    <img src="../assets/img/footer-facebook.png" alt="facebook" />
-                    <img src="../assets/img/footer-twitter.png" alt="twitter" />
-                    <img src="../assets/img/footer-youtube.png" alt="youtube" />
-                    <img src="../assets/img/footer-pinterest.png" alt="pinterest" />
-                    <img src="../assets/img/footer-periscope.png" alt="periscope" />
+                    <img src="../../images/footer-facebook.png" alt="facebook" />
+                    <img src="../../images/footer-twitter.png" alt="twitter" />
+                    <img src="../../images/footer-youtube.png" alt="youtube" />
+                    <img src="../../images/footer-pinterest.png" alt="pinterest" />
+                    <img src="../../images/footer-periscope.png" alt="periscope" />
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
