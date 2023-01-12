@@ -231,7 +231,7 @@ Route::get('/', function () {
     return view('home', compact('comics_info'));
 });
 
-Route::get('', function() {
+Route::get('/main', function() {
     $comics_info = [
         [
             "title" => "Action Comics #1000: The Deluxe Edition",
