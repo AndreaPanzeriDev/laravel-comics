@@ -264,4 +264,16 @@ a {
 
 .imgSettings img {
     margin: auto 10px;
+}.infoAndPicture,
+.infoBackground{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding-left: 3.6rem;
+    justify-content: space-around;
 }
+
+.westSide{
+    width: 60%;
+}
+
