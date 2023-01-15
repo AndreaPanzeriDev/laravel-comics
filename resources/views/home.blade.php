@@ -2,12 +2,12 @@
 {{-- usa ed estendi quella pagina in questa --}}
 
 @section('main')
-    <main>
+    <main class="mainE">
         <div class="cards">
-            @foreach ($comics_info as $item)
+            @foreach ($comics_info as $key => $item)
                 <div class="card">
                     <img src="{{ $item['thumb'] }}" alt="picture">
-                    <h6>{{ $item['title'] }} </h6>
+                    <h6><a href="{{route('comic', compact('key'))}}">{{ $item['title'] }}</a> </h6>
                 </div>
             @endforeach
         </div>

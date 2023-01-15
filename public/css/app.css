@@ -78,7 +78,7 @@ li {
 /********************
        MAIN
 *********************/
-main {
+.mainE {
     background-color: #1f1f1f;
 }
 
@@ -94,6 +94,7 @@ main {
     margin: auto;
     flex-wrap: wrap;
     padding: 50px 0;
+    justify-content: space-between;
 }
 
 
@@ -117,7 +118,7 @@ main {
 *********************/
 
 .card {
-    width: calc(100% / 6);
+    width: calc(100% / 6 - 5px);
     text-align: center;
     background-color: #1f1f1f;
     border: none;
