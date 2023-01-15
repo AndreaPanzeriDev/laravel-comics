@@ -75,6 +75,14 @@ li {
 
 
 
+/********************
+       MAIN
+*********************/
+main {
+    background-color: #1f1f1f;
+}
+
+
 
 /********************
        CARDS
@@ -108,7 +116,7 @@ li {
         CARD
 *********************/
 
-.card{
+.card {
     width: calc(100% / 6);
     text-align: center;
     background-color: #1f1f1f;
@@ -116,10 +124,52 @@ li {
 }
 
 
-h6{
+h6 {
     color: white;
     text-transform: uppercase;
     font-weight: bold;
+}
+
+
+
+.btl {
+    display: flex;
+    justify-content: center;
+}
+
+.containerY {
+    background-color: #007cf2;
+}
+
+
+/*****************************
+               LISTA
+*******************************/
+
+.containerY > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    margin-top: 1rem;
+
+}
+
+.container > ul li {
+    display: flex;
+    align-items: center;
+}
+
+.container > ul li img {
+    height: 50%;
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+    align-items: center;
 }.Utilities {
     margin: 0;
     padding: 0;

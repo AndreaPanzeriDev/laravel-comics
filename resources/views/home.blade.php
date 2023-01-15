@@ -1,1 +1,44 @@
 @extends('layouts.app')
+{{-- usa ed estendi quella pagina in questa --}}
+
+@section('main')
+    <main>
+        <div class="cards">
+            @foreach ($comics_info as $item)
+                <div class="card">
+                    <img src="{{ $item['thumb'] }}" alt="picture">
+                    <h6>{{ $item['title'] }} </h6>
+                </div>
+            @endforeach
+        </div>
+        <div class="btl">
+            <button class="loadmore">LOAD MORE</button>
+        </div>
+
+        <div class="containerY">
+            <ul>
+                <li>
+                    <img src="{{ asset('images/buy-comics-digital-comics.png') }}" alt="comics digital">
+                    <a href="#">DIGITAL COMICS</a>
+                </li>
+                <li>
+                    <img src="{{ asset('images/buy-comics-merchandise.png') }}" alt="merch">
+                    <a href="#">DC MERCHANDISE</a>
+                </li>
+                <li>
+                    <img src="{{ asset('images/buy-comics-subscriptions.png') }}" alt="sub">
+                    <a href="#">SUBSCRIPTION</a>
+                </li>
+                <li>
+                    <img src="{{ asset('images/buy-comics-shop-locator.png') }}" alt="shop">
+                    <a href="#">COMIC SHOP LOCATOR</a>
+                </li>
+                <li>
+                    <img src="{{ asset('images/buy-dc-power-visa.svg') }}" alt="power">
+                    <a href="#">DC POWER VISA</a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+@endsection
