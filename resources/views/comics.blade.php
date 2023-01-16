@@ -30,16 +30,16 @@
 
     </div>
     <div class="infoBackground">
-        <div>
+        <div class="boxComics">
             <h3 class="w-50">Talent</h3>
 
-            <hr class="w-50">
+            <hr>
             <div class="d-flex">
-                <div class="d-flex w-50 justify-content-between">
-                    <div class="w-30">
+                <div class="d-flex justify-content-between">
+                    <div class="w-50">
                         <h5>Art by:</h5>
                     </div>
-                    <div class="w-50">
+                    <div >
                         @foreach ($single_comic_info['artists'] as $artist)
                             {{ $artist }}
                         @endforeach
@@ -49,17 +49,36 @@
             
             </div>
 
-            <hr class="w-50">
-            <div class="d-flex w-50">
+            <hr>
+            <div class="d-flex">
                 <div class="w-50">
                     <h5>Written by:</h5>
                 </div>
-                <div class="w-50">
+                <div>
                     @foreach ($single_comic_info['writers'] as $writer)
                         {{ $writer }}
                     @endforeach
                 </div>
             </div>
+        </div>
+        <div class="boxComics">
+            <h3 class="w-50">Specs</h3>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <div>Series:</div>
+                <div>{{$single_comic_info['series']}}</div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <div>U.S. Price</div>
+                <div>{{$single_comic_info['price']}}</div>
+            </div>
+            <hr>
+            <div class="d-flex justify-content-between">
+                <div>On Sale Date:</div>
+                <div>{{$single_comic_info['sale_date']}}</div>
+            </div>
+            <hr>
         </div>
     </div>
 @endsection
